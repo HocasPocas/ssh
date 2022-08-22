@@ -1,6 +1,5 @@
 authtoken = ("2BKoFAIlkRcOOuhw6GVRIkf3zem_7H9HsByW5gp8VqaVNGTWX")
 get_ipython().system_raw('./ngrok authtoken $authtoken && ./ngrok tcp 22 &')
-sleep 3
 
 import requests
 from re import sub
